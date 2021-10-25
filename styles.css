@@ -47,7 +47,7 @@ overflow: hidden;
 background-color:rgb(245, 231, 212);
 }
 .dropdown-content li{
-border-style: groove; border-color:dimgray;
+  border-bottom: groove; border-color:darkorchid;
 }
 .active:hover .dropdown-content {
 display: block;
