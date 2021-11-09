@@ -1,0 +1,45 @@
+{
+	"analytics-uuid": "a75831b2-3392-4972-b444-98cc7ffd6fcb",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1634406689168
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "101403044252124971974",
+		"email": "corina.cernolev@gmail.com",
+		"email_verified": true,
+		"at_hash": "pN47EtW87GH2zWwGIdOUpg",
+		"iat": 1634406730,
+		"exp": 1634410330
+	},
+	"tokens": {
+		"expires_at": 1634410481757,
+		"refresh_token": "1//09gz6DH_fpKWbCgYIARAAGAkSNwF-L9Ir1R9WFzOG2Qdzj8SogIWDeAEs_sVUaV0aqnugHrlRDGIi5Z9ou0YixQKyDgJa6pOlBic",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0ARrdaM9rTxLFSvCrK4bSIaUciVHT5tT4PyPIk7_fV1CWny6HJ3ndbhSJQIkR_QmKwaoO0hHW9f1W4S6w-JoJjJY9DSg8tMEfcd9gefytJNT-bstQBz5afICSB6_y0YgTCS5x5uVzqoAgus9jE9dH6L--9J2WvwFI_Rpv",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkZDhjMGVlNjIzOTU0NGFmNTNmOTM3MTJhNTdiMmUyNmY5NDMzNTIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAxNDAzMDQ0MjUyMTI0OTcxOTc0IiwiZW1haWwiOiJjb3JpbmEuY2Vybm9sZXZAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJLMWNrajJZZFU2VEFjcWZ1cmVQX25RIiwiaWF0IjoxNjM0NDA2ODgzLCJleHAiOjE2MzQ0MTA0ODN9.eN9SDWQq6d4gNBDLMnOHSU8NUhMcj9nz3oK0IHlvFKRBmYD7xQ1KCpkl8Kan1wLGNZ1DVRQKNtiWzXC3zhXrW0nueA7MZQU5ZDSRBvuOzObr6UORNbKw4FwTznU48BvkpN_-KjNOuMWkQSX3-7l0b64xk1O-4oWUhJauWmAobMCqKmRxbht89_deULCfsCPhrFzGA579btS8edPJm_I7NcUxJn62tjTKDEpIbDnxHsUxJanEIC7F6iLBO13Gxezo0YmYy8GdPHeHKRUq6UkN5ig7F8NhYmTIs8FbEtXRpXt_QbD-TogvUl5_-fqgHdFrPRf4QCjPU6WI1riNxVeiMQ"
+	},
+	"activeProjects": {
+		"C:\\Users\\User": "proiectarea-pw"
+	},
+	"lastError": 1634407057381
+}
