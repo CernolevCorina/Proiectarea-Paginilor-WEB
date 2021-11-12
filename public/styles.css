@@ -66,11 +66,11 @@ h1{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:rgb(245, 231, 212);
+  background-color:rgb(222, 242, 245);
 }
 
 .dropdown-content li{
-  border-bottom: groove; border-color:darkorchid;
+  border-bottom: groove; border-color:powderblue;
 }
 
 .active:hover .dropdown-content {
@@ -80,7 +80,8 @@ h1{
 .menu li a {
   display: block;
   padding: 8px;
-  font-family: cursive; font-size: 20px;
+  font-family: cursive; 
+  font-size: 20px;
   color:darkblue;
   text-decoration: none;
 }
@@ -93,7 +94,7 @@ h1{
   background-color: white;
 }
 
-.content{
+.content-1{
   text-align: left;
   font-family: Bookman Old Style; 
   font-size: 25px; 

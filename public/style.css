@@ -1,0 +1,130 @@
+body{
+    background-color: lightslategray;
+}
+
+.header-top, .main-menu{
+    background: linear-gradient(to right, lightslategray, rgb(255, 255, 255));
+}
+
+.logo{
+    position: relative;
+    left: 20px;
+    width: 150px;
+    top: 15px;
+    color: navy ; 
+    font-family: Vivaldi; 
+    font-size: 30px; 
+    text-align: center;
+    border-style: dashed; 
+    border-color: rebeccapurple;
+    animation-name: Bord;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes Bord{
+    0% {border-color:rebeccapurple;}
+    25% {border-color: salmon;}
+    50% {border-color: yellow;}
+    100% {border-color: black;}
+  }
+  
+  h1{
+    color: rgb(0, 0, 0); 
+    background: -webkit-linear-gradient(black, red);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    bottom: 115px;
+    left: 230px;
+    width: 800px;
+    font-family: 'Edwardian Script ITC'; font-size: 70px;
+  }
+  
+  .header-top{
+    background-color: white;
+    height: 90px;
+  }
+  
+  .active {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nv{
+    width: 500px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(222, 242, 245);
+  }
+  
+  .dropdown-content li{
+    border-bottom: groove;
+    border-color:powderblue;
+  }
+  
+  .active:hover .dropdown-content {
+    display: block;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 8px;
+    font-family: cursive; font-size: 20px;
+    color:darkblue;
+    text-decoration: none;
+  }
+  
+  .menu{
+    position: relative;
+  }
+  
+  .main-menu{
+    background-color: white;
+  }
+  
+  footer{
+    background: linear-gradient(to right, rgb(150, 189, 202), rgb(255, 255, 255));
+    position: relative;
+    top: -10px;
+    left: -8px;
+  }
+  
+  .menu-f{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu-f li {
+    float: left;
+    position: relative;
+    left: 430px;
+  }
+  
+  .menu-f li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-family: cursive; font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu-f li a:hover {
+    background-color: white;
+  }
