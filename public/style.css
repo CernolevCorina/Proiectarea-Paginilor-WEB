@@ -20,17 +20,17 @@ body{
     animation-name: Bord;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-  }
+}
   
-  @keyframes Bord{
+@keyframes Bord{
     0% {border-color:rebeccapurple;}
     25% {border-color: salmon;}
     50% {border-color: yellow;}
     100% {border-color: black;}
-  }
+}
   
-  h1{
-    color: rgb(0, 0, 0); 
+h1{
+    font-weight: bold; 
     background: -webkit-linear-gradient(black, red);  
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -39,26 +39,26 @@ body{
     left: 230px;
     width: 800px;
     font-family: 'Edwardian Script ITC'; font-size: 70px;
-  }
+}
   
-  .header-top{
+.header-top{
     background-color: white;
     height: 90px;
-  }
+}
   
-  .active {
+.active {
     position: relative;
     display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .nv{
+.nv{
     width: 500px;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     min-width: 160px;
@@ -69,62 +69,129 @@ body{
     padding: 0;
     overflow: hidden;
     background-color:rgb(222, 242, 245);
-  }
+}
   
-  .dropdown-content li{
+.dropdown-content li{
     border-bottom: groove;
     border-color:powderblue;
-  }
+}
   
-  .active:hover .dropdown-content {
+.active:hover .dropdown-content {
     display: block;
-  }
+}
   
-  .menu li a {
+.menu li a {
     display: block;
     padding: 8px;
     font-family: cursive; font-size: 20px;
     color:darkblue;
     text-decoration: none;
-  }
+}
   
-  .menu{
+.menu{
     position: relative;
-  }
+}
   
-  .main-menu{
+.main-menu{
     background-color: white;
-  }
+}
   
-  footer{
+footer{
     background: linear-gradient(to right, rgb(150, 189, 202), rgb(255, 255, 255));
-    position: relative;
+    position: static;
     top: -10px;
     left: -8px;
-  }
+}
   
-  .menu-f{
+.menu-f{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+}
   
-  .menu-f li {
+.menu-f li {
     float: left;
     position: relative;
     left: 430px;
-  }
+}
   
-  .menu-f li a {
+.menu-f li a {
     display: block;
     color: rgb(0, 0, 0);
     font-family: cursive; font-size: 20px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  .menu-f li a:hover {
-    background-color: white;
-  }
+.menu-f li a:hover {
+  background-color: white;
+}
+
+main section.container,
+main section.container-1{
+  max-height: 500px;
+  background-color:steelblue;
+  display: grid;
+  grid-template-columns: auto 500px;
+  margin-top: 50px;
+}
+
+main section.container-2{
+    background-color:steelblue;
+    display: grid;
+    grid-template-columns: 500px auto;
+    margin-top: 50px;
+}
+
+main section.container div{
+  align-self: center;
+  text-align: center;
+}
+
+main section.container div div.citat{
+  font-size: 48px;
+  font-family: Konit;
+  font-weight: bold;
+  margin-bottom: 80px;
+  background: -webkit-linear-gradient( blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ main section.container div button{
+   height: 50px;
+   width: 250px;
+   font-family: Konit;
+   font-size: 25px;
+   font-weight: bold;
+   background-color: blue;
+ }
+
+main section.container img,
+main section.container-1 img,
+main section.container-2 img{
+  height: 300px;
+  justify-self: center;
+  align-self: center;
+}
+
+main section.container-1 div h3,
+main section.container-2 div h3{
+    font-family: Konit;
+    font-size: 50px;
+    background: -webkit-linear-gradient( blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main section.container-1 div p,
+main section.container-2 div{
+    font-family: Konit;
+    font-size: 20px;
+    padding-left: 20px;
+}
