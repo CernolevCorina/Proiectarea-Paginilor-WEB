@@ -130,7 +130,8 @@ footer{
 }
 
 main section.container,
-main section.container-1{
+main section.container-1,
+main section.container-3{
   max-height: 500px;
   background-color:steelblue;
   display: grid;
@@ -171,14 +172,16 @@ main section.container div div.citat{
 
 main section.container img,
 main section.container-1 img,
-main section.container-2 img{
+main section.container-2 img,
+main section.container-3 img{
   height: 300px;
   justify-self: center;
   align-self: center;
 }
 
 main section.container-1 div h3,
-main section.container-2 div h3{
+main section.container-2 div h3,
+main section.container-3 div h3{
     font-family: Konit;
     font-size: 50px;
     background: -webkit-linear-gradient( blue, violet);
@@ -190,8 +193,25 @@ main section.container-2 div h3{
 }
 
 main section.container-1 div p,
-main section.container-2 div{
+main section.container-2 div,
+main section.container-3 div{
     font-family: Konit;
     font-size: 20px;
     padding-left: 20px;
+}
+
+main section.container-3 div div.Tabel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15px;
+}
+
+main section.container-3 div div.Tabel p,
+main section.container-3 div div.Tabel div{
+    border: 2px inset white;
+    margin: 0;
+    padding: 5px;
+}
+footer{
+    margin-top: 30px;
 }
