@@ -322,6 +322,109 @@ section.content div.right img{
 section.content div.right{
     padding: 5px;
 }
+section.clasificare{
+    display: grid;
+    grid-template-columns: 300px auto;
+    column-gap: 20px;
+}
+
+section.clasificare div.left{
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgba(231, 184, 231, 0.1);
+}
+
+section.clasificare div.left p{
+    font-size: 20px;
+}
+
+section.clasificare div.left img{
+    width: 250px;
+}
+
+section.clasificare div.nevoi{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+section.clasificare div.nevoi img{
+    width: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+section.clasificare div.nevoi p{
+    display: none;
+    padding: 10px 40px 10px 10px;
+}
+
+section.clasificare div.nevoi div.comunicare:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -300px;
+    margin-bottom: 172px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.miscare:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -160px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.curat:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -200px;
+    margin-bottom: 120px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.imbraca:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -195px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.respira:hover > p,
+section.clasificare div.nevoi div.temperatura:hover > p,
+section.clasificare div.nevoi div.manca:hover > p,
+section.clasificare div.nevoi div.elimina:hover > p,
+section.clasificare div.nevoi div.recrea:hover > p,
+section.clasificare div.nevoi div.invata:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -170px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.pericole:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -270px;
+    margin-bottom: 105px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.dormi:hover > p,
+section.clasificare div.nevoi div.credinte:hover > p,
+section.clasificare div.nevoi div.util:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -195px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div:hover > img{
+    opacity: 0.4;
+}
 
 footer{
     margin-top: 30px;
