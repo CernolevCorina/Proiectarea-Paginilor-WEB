@@ -129,6 +129,10 @@ footer{
   background-color: white;
 }
 
+footer{
+    margin-top: 30px;
+}
+
 main section.container,
 main section.container-1,
 main section.container-3{
@@ -426,6 +430,16 @@ section.clasificare div.nevoi div:hover > img{
     opacity: 0.4;
 }
 
-footer{
-    margin-top: 30px;
+section.clasificare div.maslow{
+    margin-top: 20px;
+}
+
+section.clasificare div.maslow img{
+    width: 800px;
+    margin-left: 100px;
+}
+
+section.clasificare div.maslow img:hover{
+    width: 100%;
+    margin-left: 0;
 }
