@@ -133,21 +133,45 @@ footer{
     margin-top: 30px;
 }
 
-main section.container,
+main section.container{
+    max-height: 500px;
+    background-color:steelblue;
+    display: grid;
+    grid-template-columns: auto 500px;
+    margin-top: 50px;
+    margin: 90px;
+}
+
+#button-left,
+#button-right,
+#button-left1,
+#button-right1,
+#button-left2{
+    height: 30px;
+    width: 100px;
+    font-family: Konit;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(150, 238, 250);
+    margin: 80px;
+}
+
 main section.container-1,
 main section.container-3{
-  max-height: 500px;
+  min-height: 500px;
   background-color:steelblue;
-  display: grid;
   grid-template-columns: auto 500px;
-  margin-top: 50px;
+  margin: 90px;
+  display: none;
 }
 
 main section.container-2{
     background-color:steelblue;
-    display: grid;
     grid-template-columns: 500px auto;
     margin-top: 50px;
+    margin: 90px;
+    display: none;
+    padding-right: 30px;
 }
 
 main section.container div{
@@ -443,3 +467,4 @@ section.clasificare div.maslow img:hover{
     width: 100%;
     margin-left: 0;
 }
+

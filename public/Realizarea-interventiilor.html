@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Realizarea interventiilor</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="primul.js"></script>
 </head>
 
 <body>
@@ -105,17 +106,17 @@
     </header>
 
     <main>
-        <section class="container">
+        <section class="container" id="java">
             <div>
                 <div class="citat">
                     E mai usor sa invatam impreuna!
                 </div>
-                <button type="button">Incepe acum</button>
+                <button type="button" id="demo" onclick="myFunction()">Incepe acum</button>
             </div>
             <img src="imagini/255734571_213529577565010_362341083552598245_n.png" alt="Imagine">
         </section>
 
-        <section class="container-1">
+        <section class="container-1" id="cont">
             <div>
                 <h3>Ce este?</h3>
                 <p><strong>Realizarea ingrijirilor </strong> constituie momentul indeplinirii constiente si voluntare a
@@ -125,9 +126,11 @@
                 </p>
             </div>
             <img src="imagini/255946518_588448822578556_5604502891735031061_n.png" alt="">
+            <button type="button" id="button-left" onclick="myFunction1()">Inapoi</button>
+            <button type="button" id="button-right" onclick="myFunction2()">Inainte</button>
         </section>
 
-        <section class="container-2">
+        <section class="container-2" id="cont1">
             <img src="imagini/255378942_1264739323998517_4971192403785565052_n.png" alt="">
             <div>
                 <h3>In executarea ingrijirilor sunt antrenati:</h3>
@@ -143,9 +146,11 @@
                     </ul>
                 </div>
             </div>
+            <button type="button" id="button-left1" onclick="myFunction3()">Inapoi</button>
+            <button type="button" id="button-right1" onclick="myFunction4()">Inainte</button>
         </section>
 
-        <section class="container-3">
+        <section class="container-3" id="cont2">
             <div>
                 <h3>Interventia se va formula clar si precis, se va indica:</h3>
                 <div>
@@ -158,21 +163,23 @@
                 </div>
             </div>
             <img src="imagini/248072271_407763074349058_6622437214154430195_n.png" alt="">
+            <button type="button" id="button-left2" onclick="myFunction5()">Inapoi</button>
         </section>
     </main>
 
     <footer>
         <nav class="menu-footer">
             <ul class="menu-f">
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Proposals</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Social Media</a></li>
+                <li><a href="https://www.facebook.com/groups/universitateadestatdinmoldova/" target="blank">Help</a>
+                </li>
+                <li> <a href="https://usmf.md/ro" target="blank">Proposals</a></li>
+                <li><a href="https://www.facebook.com/groups/universitateadestatdinmoldova/" target="blank">Contacts</a>
+                </li>
+                <li><a href="https://www.facebook.com/groups/210057732713493/" target="blank">Social Media</a></li>
             </ul>
 
         </nav>
     </footer>
-
 </body>
 
 </html>

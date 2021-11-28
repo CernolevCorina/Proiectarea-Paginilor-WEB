@@ -8,6 +8,7 @@
     <title>Culegerea de date</title>
     <link href="https://fonts.google.com/share?selection.family=Kanit:wght@200">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="primul.js"></script>
 </head>
 
 <body>
@@ -105,17 +106,17 @@
         </nav>
     </header>
     <main>
-        <section class="container">
+        <section class="container" id="java">
             <div>
                 <div class="citat">
                     E mai usor sa invatam impreuna!
                 </div>
-                <button type="button">Incepe acum</button>
+                <button id="demo" onclick="myFunction()" type="button">Incepe acum</button>
             </div>
             <img src="imagini/255734571_213529577565010_362341083552598245_n.png" alt="Imagine">
         </section>
 
-        <section class="container-1">
+        <section class="container-1" id="cont">
             <div>
                 <h3>Ce este?</h3>
                 <p><strong>Culegerea de date</strong> este faza inițială, debutul procesului de îngrijire de la care
@@ -127,9 +128,11 @@
                 </p>
             </div>
             <img src="imagini/255946518_588448822578556_5604502891735031061_n.png" alt="">
+            <button type="button" id="button-left" onclick="myFunction1()">Inapoi</button>
+            <button type="button" id="button-right" onclick="myFunction2()">Inainte</button>
         </section>
 
-        <section class="container-2">
+        <section class="container-2" id="cont1">
             <img src="imagini/255378942_1264739323998517_4971192403785565052_n.png" alt="">
             <div>
                 <h3>Datele se pot clasifica in doua mari categorii:</h3>
@@ -164,16 +167,19 @@
                     </li>
                 </ol>
             </div>
+            <button type="button" id="button-left1" onclick="myFunction3()">Inapoi</button>
         </section>
     </main>
 
     <footer>
         <nav class="menu-footer">
             <ul class="menu-f">
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Proposals</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Social Media</a></li>
+                <li><a href="https://www.facebook.com/groups/universitateadestatdinmoldova/" target="blank">Help</a>
+                </li>
+                <li> <a href="https://usmf.md/ro" target="blank">Proposals</a></li>
+                <li><a href="https://www.facebook.com/groups/universitateadestatdinmoldova/" target="blank">Contacts</a>
+                </li>
+                <li><a href="https://www.facebook.com/groups/210057732713493/" target="blank">Social Media</a></li>
             </ul>
 
         </nav>
