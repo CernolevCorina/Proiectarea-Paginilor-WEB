@@ -187,16 +187,16 @@ main section.container div div.citat{
   background: -webkit-linear-gradient( blue, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
- }
+}
 
- main section.container div button{
+main section.container div button{
    height: 50px;
    width: 250px;
    font-family: Konit;
    font-size: 25px;
    font-weight: bold;
    background-color: blue;
- }
+}
 
 main section.container img,
 main section.container-1 img,
