@@ -99,7 +99,7 @@ h1{
 footer{
     background: linear-gradient(to right, rgb(150, 189, 202), rgb(255, 255, 255));
     position: static;
-    top: -10px;
+    top: 20px;
     left: -8px;
 }
   
@@ -113,7 +113,6 @@ footer{
 .menu-f li {
     float: left;
     position: relative;
-    left: 430px;
 }
   
 .menu-f li a {
@@ -127,10 +126,6 @@ footer{
   
 .menu-f li a:hover {
   background-color: white;
-}
-
-footer{
-    margin-top: 30px;
 }
 
 main section.container{

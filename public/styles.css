@@ -1,7 +1,18 @@
 body{
   background-image: url(imagini/asistenta.jpg);
   background-repeat: no-repeat;
-  position:absolute;
+  background-size: cover;
+}
+
+@media (max-width: 450px){
+  body{
+    background-color: blanchedalmond;
+    background-image: none;
+  }
+}
+
+header{
+  width: 900px;
 }
 
 .logo{
@@ -20,6 +31,13 @@ body{
   animation-iteration-count: infinite;
 }
 
+@media (max-width: 450px){
+  .logo{
+    width: 80px;
+    font-size: 20px;
+  }
+}
+
 @keyframes Bord{
   0% {border-color:rebeccapurple;}
   25% {border-color: salmon;}
@@ -36,7 +54,29 @@ h1{
   bottom: 115px;
   left: 230px;
   width: 800px;
-  font-family: 'Edwardian Script ITC'; font-size: 70px;
+  font-family: 'Edwardian Script ITC'; 
+  font-size: 70px;
+}
+
+@media (max-width: 450px){
+  h1{
+    width: 200px;
+    font-size: 30px;
+    position: relative;
+    bottom: 65px;
+    left: 130px;
+  }
+}
+
+i{
+  display: none;
+}
+
+@media (max-width: 450px){
+i{
+  display: block;
+  width: 40px;
+}
 }
 
 .header-top{
@@ -50,10 +90,6 @@ h1{
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-.nv{
-  width: 500px;
 }
 
 .dropdown-content {
@@ -90,24 +126,46 @@ h1{
   position: relative;
 }
 
+@media (max-width: 450px){
+  #mobile-menu{
+    display: none;
+  }
+}
+
 .main-menu{
   background-color: white;
 }
 
-.content-1{
+@media (max-width: 450px){
+  header{
+    width: 330px;
+  }
+}
+
+div.content-1{
+  display: flex;
+  height: 700px;
   text-align: left;
   font-family: Bookman Old Style; 
-  font-size: 25px; 
-  padding-top: 200px;
-  padding-bottom: 400px;
+  font-size: 25px;
   color:darkblue;
+  align-items: center;
+}
+
+@media (max-width: 450px){
+  div.content-1{
+    width: 280px;
+  }
 }
 
 footer{
   background: linear-gradient(to right, rgb(150, 189, 202), rgb(255, 255, 255));
-  position: relative;
-  top: -10px;
-  left: -8px;
+}
+
+@media (max-width: 450px){
+  footer{
+    width: 300px;
+  }
 }
 
 .menu-f{
@@ -120,7 +178,6 @@ footer{
 .menu-f li {
   float: left;
   position: relative;
-  left: 430px;
 }
 
 .menu-f li a {
@@ -133,5 +190,5 @@ footer{
 }
 
 .menu-f li a:hover {
-  background-color: white;
+background-color: white;
 }

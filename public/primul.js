@@ -27,3 +27,7 @@ function myFunction5() {
     document.getElementById("cont2").style.display = "none";
     document.getElementById("cont1").style.display = "grid";
 }
+
+function functionMenu() {
+    document.getElementById("mobile-menu").style.display = "block";
+}
