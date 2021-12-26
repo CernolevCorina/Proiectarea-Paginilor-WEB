@@ -1,5 +1,5 @@
 body{
-  background-image: url(imagini/asistenta.jpg);
+  background-image: url(../imagini/asistenta.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -68,7 +68,7 @@ h1{
   }
 }
 
-i{
+button#button-icon{
   display: none;
 }
 
