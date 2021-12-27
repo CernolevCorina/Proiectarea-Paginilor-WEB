@@ -4,13 +4,6 @@ body{
   background-size: cover;
 }
 
-@media (max-width: 450px){
-  body{
-    background-color: blanchedalmond;
-    background-image: none;
-  }
-}
-
 header{
   width: 900px;
 }
@@ -29,13 +22,6 @@ header{
   animation-name: Bord;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-}
-
-@media (max-width: 450px){
-  .logo{
-    width: 80px;
-    font-size: 20px;
-  }
 }
 
 @keyframes Bord{
@@ -58,25 +44,8 @@ h1{
   font-size: 70px;
 }
 
-@media (max-width: 450px){
-  h1{
-    width: 200px;
-    font-size: 30px;
-    position: relative;
-    bottom: 65px;
-    left: 130px;
-  }
-}
-
 button#button-icon{
   display: none;
-}
-
-@media (max-width: 450px){
-i{
-  display: block;
-  width: 40px;
-}
 }
 
 .header-top{
@@ -126,21 +95,10 @@ i{
   position: relative;
 }
 
-@media (max-width: 450px){
-  #mobile-menu{
-    display: none;
-  }
-}
-
 .main-menu{
   background-color: white;
 }
 
-@media (max-width: 450px){
-  header{
-    width: 330px;
-  }
-}
 
 div.content-1{
   display: flex;
@@ -152,20 +110,8 @@ div.content-1{
   align-items: center;
 }
 
-@media (max-width: 450px){
-  div.content-1{
-    width: 280px;
-  }
-}
-
 footer{
   background: linear-gradient(to right, rgb(150, 189, 202), rgb(255, 255, 255));
-}
-
-@media (max-width: 450px){
-  footer{
-    width: 300px;
-  }
 }
 
 .menu-f{
@@ -183,7 +129,8 @@ footer{
 .menu-f li a {
   display: block;
   color: rgb(0, 0, 0);
-  font-family: cursive; font-size: 20px;
+  font-family: cursive; 
+  font-size: 20px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -191,4 +138,49 @@ footer{
 
 .menu-f li a:hover {
 background-color: white;
+}
+
+@media (max-width: 450px){
+  .logo{
+    width: 40px;
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  header{
+    margin-left: -8px;
+  }
+  body{
+    background-color: gainsboro;
+    background-image: none;
+  }
+  h1{
+    width: 130px;
+    font-size: 20px;
+    position: relative;
+    bottom: 55px;
+    left: 65px;
+  }
+  button#button-icon{
+    display: block;
+    width: 40px;
+  }
+  #mobile-menu{
+    display: none;
+  }
+  header{
+    width: 330px;
+  }
+  div.content-1{
+    width: 200px;
+    font-size: 14px;
+    height: 300px;
+  }
+  .menu-f li a {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .menu li a {
+    font-size: 14px;
+    padding: 4px;
+  }
 }
