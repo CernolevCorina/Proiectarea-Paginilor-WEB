@@ -75,7 +75,8 @@ button#button-icon{
 }
 
 .dropdown-content li{
-  border-bottom: groove; border-color:powderblue;
+  border-bottom: groove; 
+  border-color:powderblue;
 }
 
 .active:hover .dropdown-content {
@@ -174,6 +175,7 @@ background-color: white;
     width: 200px;
     font-size: 14px;
     height: 300px;
+    text-align: center;
   }
   .menu-f li a {
     font-size: 12px;
@@ -182,5 +184,19 @@ background-color: white;
   .menu li a {
     font-size: 14px;
     padding: 4px;
+  }
+  .header-top{
+    background-color: gainsboro;
+  }
+  .main-menu{
+    background-color: gainsboro;
+  }
+  footer{
+    background: gainsboro;
+  }
+  div.line{
+    border-style: solid;
+    border-width: 2px;
+    margin-left: -5px;
   }
 }
