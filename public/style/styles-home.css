@@ -146,20 +146,22 @@ background-color: white;
     width: 40px;
     font-size: 14px;
     margin-left: -10px;
+    padding: 5px;
   }
   header{
     margin-left: -8px;
+    width: 330px;
   }
   body{
     background-color: gainsboro;
     background-image: none;
   }
   h1{
-    width: 130px;
-    font-size: 20px;
+    width: 300px;
+    font-size: 25px;
     position: relative;
     bottom: 55px;
-    left: 65px;
+    left: 70px;
   }
   button#button-icon{
     display: block;
@@ -168,14 +170,16 @@ background-color: white;
   #mobile-menu{
     display: none;
   }
-  header{
-    width: 330px;
-  }
+
   div.content-1{
     width: 200px;
     font-size: 14px;
     height: 300px;
     text-align: center;
+  }
+  div#c{
+    display: grid;
+    justify-content: center;
   }
   .menu-f li a {
     font-size: 12px;
@@ -198,5 +202,19 @@ background-color: white;
     border-style: solid;
     border-width: 2px;
     margin-left: -5px;
+  }
+}
+
+@media (min-width: 450px){
+  h1{
+    font-size: 35px;
+    bottom: 80px;
+  }
+}
+
+@media (min-width: 1000px){
+  h1{
+    font-size: 70px;
+    bottom: 115px;
   }
 }

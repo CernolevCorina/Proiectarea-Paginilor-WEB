@@ -9,6 +9,7 @@
     <link href="https://fonts.google.com/share?selection.family=Kanit:wght@200">
     <link rel="stylesheet" href="style/style.css">
     <script type="text/javascript" src="primul.js"></script>
+    <link href='https://css.gg/menu-boxed.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -23,7 +24,8 @@
         </div>
 
         <nav class="main-menu">
-            <div class="menu">
+            <button id="button-icon"><i class="gg-menu-boxed" id="icon-menu" onclick="functionMenu()"></i></button>
+            <div class="menu" id="mobile-menu">
                 <ul class="active">
                     <li><a href="index.html">Home</a></li>
                 </ul>
@@ -172,6 +174,7 @@
     </main>
 
     <footer>
+        <div class="line"></div>
         <nav class="menu-footer">
             <ul class="menu-f">
                 <li><a href="https://www.facebook.com/groups/universitateadestatdinmoldova/" target="blank">Help</a>

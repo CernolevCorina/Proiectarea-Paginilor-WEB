@@ -463,3 +463,108 @@ section.clasificare div.maslow img:hover{
     margin-left: 0;
 }
 
+button#button-icon{
+    display: none;
+}
+
+@media (max-width: 450px){
+    .logo{
+        width: 40px;
+        font-size: 14px;
+        margin-left: -10px;
+        padding: 5px;
+      }
+    header{
+        margin-left: -8px;
+    }
+    h1{
+        width: 300px;
+        font-size: 25px;
+        position: relative;
+        bottom: 55px;
+        left: 70px;
+    }
+    button#button-icon{
+        display: block;
+        width: 40px;
+    }
+    #mobile-menu{
+        display: none;
+    }
+    header{
+        width: 330px;
+    }
+    .menu-f li a {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .menu li a {
+        font-size: 14px;
+        padding: 4px;
+    }
+    .header-top{
+        background: white;
+    }
+    .main-menu{
+        background: white;
+    }
+    footer{
+        background: lightslategray;
+    }
+    div.line{
+        border-style: solid;
+        border-width: 2px;
+        margin-left: -5px;
+    }
+    main section.container{
+        margin: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+    main section.container div div.citat{
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    main section.container div button{
+        height: 30px;
+        width: 100px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    main section.container img,
+    main section.container-1 img,
+    main section.container-2 img,
+    main section.container-3 img{
+        height: 100px;
+    }
+    main section.container-1,
+    main section.container-3{
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+    }
+    main section.container-1 div h3,
+    main section.container-2 div h3,
+    main section.container-3 div h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    main section.container-1 div p,
+    main section.container-2 div,
+    main section.container-3 div{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 450px){
+    h1{
+      font-size: 35px;
+      bottom: 80px;
+    }
+  }
+  
+  @media (min-width: 1000px){
+    h1{
+      font-size: 70px;
+      bottom: 115px;
+    }
+  }
