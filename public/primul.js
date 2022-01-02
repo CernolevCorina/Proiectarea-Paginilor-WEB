@@ -28,6 +28,11 @@ function myFunction5() {
     document.getElementById("cont1").style.display = "grid";
 }
 
-function functionMenu() {
-    document.getElementById("mobile-menu").style.display = "block";
+function myFunction() {
+    var x = document.getElementById("mobile-menu");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }

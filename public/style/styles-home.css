@@ -2,6 +2,10 @@ body{
   margin: 0;
 }
 
+header a.icon{
+  display: none;
+}
+
 header{
   display: grid;
   grid-template-columns: 1fr 7fr;
@@ -55,21 +59,29 @@ header nav a{
   color: #a9a9a9;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  padding: 12px 16px;
-  z-index: 1;
-  list-style-type: none;
+header nav ul{
+  display: inline;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color:#ffffff;
 }
 
-div.active:hover > .dropdown-content{
+nav ul li.active{
+  display: inline-block;
+}
+
+nav ul li.active:hover ul.dropdown-content{
   display: block;
+}
+nav ul li.active ul.dropdown-content{
+  position: absolute;
+  width: 500px;
+  display: none;
+  background-color: white;
+  border: 2px solid #a9a9a9;
+}
+nav ul li.active ul.dropdown-content li { 
+  display: block;
+  border-bottom: 2px solid #a9a9a9;
 }
 
 header nav button{
@@ -142,5 +154,28 @@ footer div.icons i{
   }
   footer{
     font-size: 12px;
+  }
+  main img{
+    top: 50px;
+  }
+}
+
+@media (max-width: 500px){
+  #mobile-menu{
+    overflow: hidden;
+    position: relative;
+    display: none;
+  }
+  header a.icon{
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+  nav a{
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
   }
 }
