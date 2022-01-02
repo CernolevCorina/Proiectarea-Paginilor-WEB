@@ -72,6 +72,7 @@ nav ul li.active{
 nav ul li.active:hover ul.dropdown-content{
   display: block;
 }
+
 nav ul li.active ul.dropdown-content{
   position: absolute;
   width: 500px;
@@ -79,6 +80,7 @@ nav ul li.active ul.dropdown-content{
   background-color: white;
   border: 2px solid #a9a9a9;
 }
+
 nav ul li.active ul.dropdown-content li { 
   display: block;
   border-bottom: 2px solid #a9a9a9;
