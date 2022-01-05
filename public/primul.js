@@ -1,31 +1,126 @@
-function myFunction() {
-    document.getElementById("java").style.display = "none";
-    document.getElementById("cont").style.display = "grid";
+function menu1() {
+    var x = document.getElementsByClassName("content");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById("content-culegere1").style.display = "block";
+}
+
+function menu2() {
+    var x = document.getElementsByClassName("content");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById("content-analiza1").style.display = "block";
+}
+
+function menu3() {
+    var x = document.getElementsByClassName("content");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById("content-planificare1").style.display = "block";
+}
+
+function menu4() {
+    var x = document.getElementsByClassName("content");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById("content-realizare1").style.display = "block";
+}
+
+function menu5() {
+    var x = document.getElementsByClassName("content");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById("content-evaluare1").style.display = "block";
 }
 
 function myFunction1() {
-    document.getElementById("cont").style.display = "none";
-    document.getElementById("java").style.display = "grid";
+    document.getElementById("content-culegere1").style.display = "none";
+    document.getElementById("content-culegere2").style.display = "block";
 }
 
 function myFunction2() {
-    document.getElementById("cont").style.display = "none";
-    document.getElementById("cont1").style.display = "grid";
+    document.getElementById("content-culegere2").style.display = "none";
+    document.getElementById("content-culegere1").style.display = "block";
 }
 
 function myFunction3() {
-    document.getElementById("cont1").style.display = "none";
-    document.getElementById("cont").style.display = "grid";
+    document.getElementById("content-analiza1").style.display = "none";
+    document.getElementById("content-analiza2").style.display = "block";
 }
 
 function myFunction4() {
-    document.getElementById("cont1").style.display = "none";
-    document.getElementById("cont2").style.display = "grid";
+    document.getElementById("content-analiza2").style.display = "none";
+    document.getElementById("content-analiza3").style.display = "block";
 }
 
 function myFunction5() {
-    document.getElementById("cont2").style.display = "none";
-    document.getElementById("cont1").style.display = "grid";
+    document.getElementById("content-analiza2").style.display = "none";
+    document.getElementById("content-analiza1").style.display = "block";
+}
+
+function myFunction6() {
+    document.getElementById("content-analiza3").style.display = "none";
+    document.getElementById("content-analiza2").style.display = "block";
+}
+
+function myFunction7() {
+    document.getElementById("content-planificare1").style.display = "none";
+    document.getElementById("content-planificare2").style.display = "block";
+}
+
+function myFunction8() {
+    document.getElementById("content-planificare2").style.display = "none";
+    document.getElementById("content-planificare3").style.display = "block";
+}
+
+function myFunction9() {
+    document.getElementById("content-planificare2").style.display = "none";
+    document.getElementById("content-planificare1").style.display = "block";
+}
+
+function myFunction10() {
+    document.getElementById("content-planificare3").style.display = "none";
+    document.getElementById("content-planificare2").style.display = "block";
+}
+
+function myFunction11() {
+    document.getElementById("content-realizare1").style.display = "none";
+    document.getElementById("content-realizare2").style.display = "block";
+}
+
+function myFunction12() {
+    document.getElementById("content-realizare2").style.display = "none";
+    document.getElementById("content-realizare3").style.display = "block";
+}
+
+function myFunction13() {
+    document.getElementById("content-realizare2").style.display = "none";
+    document.getElementById("content-realizare1").style.display = "block";
+}
+
+function myFunction14() {
+    document.getElementById("content-realizare3").style.display = "none";
+    document.getElementById("content-realizare2").style.display = "block";
+}
+
+function myFunction15() {
+    document.getElementById("content-evaluare1").style.display = "none";
+    document.getElementById("content-evaluare2").style.display = "block";
+}
+
+function myFunction16() {
+    document.getElementById("content-evaluare2").style.display = "none";
+    document.getElementById("content-evaluare1").style.display = "block";
 }
 
 function myFunction() {
@@ -36,3 +131,4 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+

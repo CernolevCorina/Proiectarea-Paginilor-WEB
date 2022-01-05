@@ -171,42 +171,44 @@ main.etape div.menu-etape{
     background-color: #f5f5cd;
 }
 
-main.etape div.menu-etape article{
+main.etape div.menu-etape button{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+    background-color: #f5f5cd;
 }
 
-main.etape div.menu-etape article img{
+main.etape div.menu-etape button img{
     width: 50px;
     justify-self: center;
     align-self: end;
 }
 
-main.etape div.menu-etape article p{
+main.etape div.menu-etape button p{
     font-size: 24px;
     justify-self: center;
     text-align: center;
 }
 
-main.etape div#content{
+main.etape div.content{
     background-color: #e6e6fa;
     padding: 20px;
     text-align: center;
     font-size: 24px;
+    display: none;
 }
 
-main.etape div#content h3{
+main.etape div.content h3{
     font-size: 48px;
     font-weight: bold;
 }
 
-main.etape div#content div.buttons{
+main.etape div.content div.buttons{
     display: grid;
 }
 
-main.etape div#content button.next,
-main.etape div#content button.back,
-main.etape div#content button.back1{
+main.etape div.content button.next,
+main.etape div.content button.back,
+main.etape div.content button.back1{
     background-color: #c4c4c4;
     width: 125px;
     border-radius: 30px;
@@ -215,15 +217,23 @@ main.etape div#content button.back1{
     margin-right: 20px;
 }
 
-main.etape div#content button.back1{
+main.etape div.content button.back1{
     justify-self: start;
     margin-left: 20px;
 }
 
-main.etape div#content button.back{
+main.etape div.content button.back{
     justify-self: start;
     margin-left: 20px;
     margin-top: -40px;
+}
+
+main.etape section.menu1,
+main.etape section.menu2,
+main.etape section.menu3,
+main.etape section.menu4,
+main.etape section.menu5{
+    display: none;
 }
 
 

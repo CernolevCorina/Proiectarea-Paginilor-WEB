@@ -79,6 +79,7 @@ nav ul li.active ul.dropdown-content{
   display: none;
   background-color: white;
   border: 2px solid #a9a9a9;
+  z-index: +1;
 }
 
 nav ul li.active ul.dropdown-content li { 
