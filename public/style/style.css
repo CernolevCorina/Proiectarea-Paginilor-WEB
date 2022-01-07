@@ -1,168 +1,133 @@
-body{
-margin: 0;
-font-family: Roboto;
+body {
+    margin: 0;
+    font-family: Roboto;
 }
 
-header a.icon{
-display: none;
+header a.icon {
+    display: none;
 }
 
-header{
-display: grid;
-grid-template-columns: 1fr 7fr;
-position: sticky;
-top: 0;
-background-color: white;
-width: 100%;
+header {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    z-index: +1;
 }
 
-header nav{
-display: grid;
-grid-template-columns: repeat(3, 1fr) repeat(3, 2fr);
-text-align: center;
-align-items: center;
+header nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) repeat(3, 2fr);
+    text-align: center;
+    align-items: center;
 }
 
-header i#menu{
-display: none;
+header i#menu {
+    display: none;
 }
 
-header div{
-justify-self: center;
+header div {
+    justify-self: center;
 }
 
-header div p.logo{
-color: black ; 
-font-family: Vivaldi; 
-font-size: 24px; 
-text-align: center;
-width: fit-content;
-padding: 3px;
-border-style: dashed;
-animation-name: Bord;
-animation-duration: 10s;
-animation-iteration-count: infinite;
+header div p.logo {
+    color: black ; 
+    font-family: Vivaldi; 
+    font-size: 24px; 
+    text-align: center;
+    width: fit-content;
+    padding: 3px;
+    border-style: dashed;
+    animation-name: Bord;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes Bord{
-0% {border-color:rebeccapurple;}
-25% {border-color: salmon;}
-50% {border-color: yellow;}
-100% {border-color: black;}
+@keyframes Bord {
+    0% {border-color:rebeccapurple;}
+    25% {border-color: salmon;}
+    50% {border-color: yellow;}
+    100% {border-color: black;}
 }
 
-header nav a{
-text-decoration: none;
-font-weight: bold;
-font-size: 24px;
-text-align: center;
-color: #a9a9a9;
+header nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #a9a9a9;
 }
 
-header nav ul{
-display: inline;
-margin: 0;
-padding: 0;
+header nav ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li.active{
-display: inline-block;
+nav ul li.active {
+    display: inline-block;
 }
 
-nav ul li.active:hover ul.dropdown-content{
-display: block;
+nav ul li.active:hover ul.dropdown-content {
+    display: block;
 }
 
-nav ul li.active ul.dropdown-content{
-position: absolute;
-width: 500px;
-display: none;
-background-color: white;
-border: 2px solid #a9a9a9;
+nav ul li.active ul.dropdown-content {
+    position: absolute;
+    width: 500px;
+    display: none;
+    background-color: white;
+    border: 2px solid #a9a9a9;
 }
 
 nav ul li.active ul.dropdown-content li { 
-display: block;
-border-bottom: 2px solid #a9a9a9;
+    display: block;
+    border-bottom: 2px solid #a9a9a9;
 }
 
-header nav a:active{
-color: black;
+header nav a:active {
+    color: black;
 }
 
-header nav button{
-width: 227px;
-height: 63px;
-background: #FFFFFF;
-border: 3px solid #FCDDEC;
-border-radius: 60px;
-font-weight: bold;
-font-size: 24px;
-text-align: center;
-color: #FFC5FF;
-margin-left: 20px;
+header nav button {
+    width: 227px;
+    height: 63px;
+    background: #FFFFFF;
+    border: 3px solid #FCDDEC;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #FFC5FF;
+    margin-left: 20px;
 }
-footer{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-background-color: black;
-color: #a9a9a9;
-padding: 10px;
-font-size: 18px;
-z-index: -1;
-position: sticky;
-top: 120px;
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    color: #a9a9a9;
+    padding: 10px;
+    font-size: 18px;
 }
 
 footer div.contacts h3,
-footer div.work h3{
-margin-left: 10px;
+footer div.work h3 {
+    margin-left: 10px;
 }
 
-footer div.icons i{
-display: inline-block;
-margin: 20px;
+footer div.icons i {
+    display: inline-block;
+    margin: 20px;
 }
 
-@media (max-width: 1000px){
-header div p.logo{
-    font-size: 12px;
-}
-header nav a{
-    font-size: 12px;
-}
-header nav button{
-    width: 100px;
-    height: 40px;
-    font-size: 12px;
-}
-footer{
-    font-size: 12px;
-}
-}
-
-@media (max-width: 500px){
-#mobile-menu{
-    overflow: hidden;
-    position: relative;
-    display: none;
-}
-header a.icon{
-    display: block;
-    position: absolute;
-    right: 30px;
-    top: 20px;
-}
-nav a{
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-}
-}
-
-main.etape img.top-image{
+main.etape img.image {
     width: 100%;
+    z-index: -1;
+    position: sticky;
+    top: 120px;
 }
 
 main.etape div.menu-etape{
@@ -192,14 +157,20 @@ main.etape div.menu-etape button p{
 main.etape div.content{
     background-color: #e6e6fa;
     padding: 20px;
-    text-align: center;
     font-size: 24px;
     display: none;
+}
+
+main.etape div#content-analiza3 div.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 5px;
 }
 
 main.etape div.content h3{
     font-size: 48px;
     font-weight: bold;
+    text-align: center;
 }
 
 main.etape div.content div.buttons{
@@ -228,12 +199,52 @@ main.etape div.content button.back{
     margin-top: -40px;
 }
 
-main.etape section.menu1,
-main.etape section.menu2,
-main.etape section.menu3,
-main.etape section.menu4,
-main.etape section.menu5{
-    display: none;
+@media (max-width: 1000px) {
+    header div p.logo {
+        font-size: 12px;
+    }
+    header nav a {
+        font-size: 12px;
+    }
+    header nav button {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+    footer {
+        font-size: 12px;
+    }
+    }
+    
+    @media (max-width: 500px) {
+    #mobile-menu {
+        overflow: hidden;
+        position: relative;
+        display: none;
+    }
+    header a.icon {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+    nav a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    main.etape div.menu-etape{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main.etape div.content h3{
+        font-size: 30px;
+    }
+    main.etape div.content button.next,
+    main.etape div.content button.back,
+    main.etape div.content button.back1{
+        width: 100px;
+    }
 }
 
 

@@ -132,9 +132,6 @@ footer{
   color: #a9a9a9;
   padding: 10px;
   font-size: 18px;
-  z-index: -1;
-  position: sticky;
-  top: 120px;
 }
 
 footer div.contacts h3,
