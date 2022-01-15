@@ -102,3 +102,13 @@ function myFunction2() {
     }
     x[z].style.display = "block";
 }
+
+function myFunction3() {
+    document.getElementById("maslow").style.display = "grid";
+    document.getElementById("virginia").style.display = "none";
+}
+
+function myFunction4() {
+    document.getElementById("maslow").style.display = "none";
+    document.getElementById("virginia").style.display = "grid";
+}
