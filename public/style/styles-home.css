@@ -1,5 +1,6 @@
 body{
-  margin: 0;
+  margin: 10px;
+  font-family: Roboto;
 }
 
 header a.icon{
@@ -52,7 +53,6 @@ header div p.logo{
 
 header nav a{
   text-decoration: none;
-  font-family: Roboto;
   font-weight: bold;
   font-size: 24px;
   text-align: center;
@@ -97,7 +97,6 @@ header nav button{
   background: #FFFFFF;
   border: 3px solid #FCDDEC;
   border-radius: 60px;
-  font-family: Roboto;
   font-weight: bold;
   font-size: 24px;
   text-align: center;
@@ -120,7 +119,6 @@ main div.text-home{
 
 main div.text-home p{
   place-self: center;
-  font-family: Roboto;
   font-size: 24px;
   text-align: center;
 }

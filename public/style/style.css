@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 10px;
     font-family: Roboto;
 }
 
@@ -136,10 +136,15 @@ main.etape div.menu-etape{
     background-color: #f5f5cd;
 }
 
-main.etape div.menu-etape button{
+main.etape div.menu-etape button.menu-button{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 70px 110px;
     background-color: #f5f5cd;
+    border: none;
+}
+
+main.etape div.menu-etape button.menu-button:hover{
+    border: 3px solid black;
 }
 
 main.etape div.menu-etape button img{
@@ -152,6 +157,7 @@ main.etape div.menu-etape button p{
     font-size: 24px;
     justify-self: center;
     text-align: center;
+    font-weight: bold;
 }
 
 main.etape div.content{
@@ -200,23 +206,26 @@ main.etape div.content button.back{
 }
 
 @media (max-width: 1000px) {
-    header div p.logo {
-        font-size: 12px;
+    header div p.logo{
+      font-size: 12px;
     }
-    header nav a {
-        font-size: 12px;
+    header nav a{
+      font-size: 14px;
     }
-    header nav button {
-        width: 100px;
-        height: 40px;
-        font-size: 12px;
+    header nav button{
+      width: 100px;
+      height: 40px;
+      font-size: 12px;
     }
-    footer {
-        font-size: 12px;
+    footer{
+      font-size: 12px;
     }
+    main.etape img.image{
+        top: 50px;
     }
+}
     
-    @media (max-width: 500px) {
+@media (max-width: 500px) {
     #mobile-menu {
         overflow: hidden;
         position: relative;
@@ -480,155 +489,3 @@ section.clasificare div.maslow img:hover{
 button#button-icon{
     display: none;
 }
-
-@media (max-width: 780px){
-    .logo{
-        width: 40px;
-        font-size: 14px;
-        margin-left: -10px;
-        padding: 5px;
-      }
-    header{
-        margin-left: -8px;
-    }
-    h1{
-        width: 300px;
-        font-size: 25px;
-        position: relative;
-        bottom: 55px;
-        left: 70px;
-    }
-    button#button-icon{
-        display: block;
-        width: 40px;
-    }
-    #mobile-menu{
-        display: none;
-    }
-    header{
-        width: 330px;
-    }
-    .menu-f li a {
-        font-size: 12px;
-        padding: 5px;
-    }
-    .menu li a {
-        font-size: 14px;
-        padding: 4px;
-    }
-    .header-top{
-        background: white;
-    }
-    .main-menu{
-        background: white;
-    }
-    footer{
-        background: lightslategray;
-    }
-    div.line{
-        border-style: solid;
-        border-width: 2px;
-        margin-left: -5px;
-    }
-    main section.container{
-        margin: 10px;
-        grid-template-columns: 1fr 1fr;
-    }
-    main section.container div div.citat{
-        font-size: 22px;
-        margin-top: 20px;
-    }
-    main section.container div button{
-        height: 30px;
-        width: 100px;
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-    main section.container img,
-    main section.container-1 img,
-    main section.container-2 img,
-    main section.container-3 img{
-        height: 100px;
-        justify-self: start;
-        margin: 15px;
-    }
-    main section.container-1,
-    main section.container-2,
-    main section.container-3{
-        grid-template-columns: 1fr 1fr;
-        margin: 10px;
-    }
-    main section.container-2,
-    main section.container-3{
-        grid-template-columns: 1fr;
-    }
-    main section.container-1 div h3,
-    main section.container-2 div h3,
-    main section.container-3 div h3{
-        font-size: 20px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-    }
-    main section.container-1 div p,
-    main section.container-2 div,
-    main section.container-3 div{
-        font-size: 14px;
-        padding-left: 10px;
-    }
-    #button-left,
-    #button-right,
-    #button-left1,
-    #button-right1,
-    #button-left2{
-        height: 20px;
-        width: 60px;
-        margin: 30px;
-        font-size: 14px;
-    }
-    #button-right1{
-        position: relative;
-        left: 120px;
-        bottom: 80px;
-    }
-    section.content{
-        display: block;
-    }
-    section.content div.inf div.top-inf img{
-        width: 280px;
-    }
-    section.content div.inf div.scopul div.scop-t,
-    section.content div.inf div.postulate div.t{
-        font-size: 30px;
-    }
-    section.content div.inf div.postulate div.t{
-        margin-top: 250px;
-    }
-    section.content div.inf div.scopuri,
-    section.content div.inf div.postulate div.c{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    section.clasificare{
-        display: block;
-    }
-    section.clasificare div.maslow img{
-        width: 280px;
-        margin-left: 15px;
-    }
-    section.clasificare div.nevoi{
-        display: block;
-    }
-}
-
-@media (min-width: 450px){
-    h1{
-      font-size: 35px;
-      bottom: 80px;
-    }
-  }
-  
-  @media (min-width: 1000px){
-    h1{
-      font-size: 70px;
-      bottom: 115px;
-    }
-  }

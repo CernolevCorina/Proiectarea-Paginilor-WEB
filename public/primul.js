@@ -9,47 +9,72 @@ function myFunction() {
 
 function menu1() {
     var x = document.getElementsByClassName("content");
+    var y = document.getElementsByClassName("menu-button");
     var i;
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
     document.getElementById("content-culegere1").style.display = "block";
+    for (i = 0; i < y.length; i++) {
+        y[i].style.border = "none";
+    }
+    y[0].style.border = "3px solid red";
 }
 
 function menu2() {
     var x = document.getElementsByClassName("content");
+    var y = document.getElementsByClassName("menu-button");
     var i;
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
     document.getElementById("content-analiza1").style.display = "block";
+    for (i = 0; i < y.length; i++) {
+        y[i].style.border = "none";
+    }
+    y[1].style.border = "3px solid red";
 }
 
 function menu3() {
     var x = document.getElementsByClassName("content");
+    var y = document.getElementsByClassName("menu-button");
     var i;
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
     document.getElementById("content-planificare1").style.display = "block";
+    for (i = 0; i < y.length; i++) {
+        y[i].style.border = "none";
+    }
+    y[2].style.border = "3px solid red";
 }
 
 function menu4() {
     var x = document.getElementsByClassName("content");
+    var y = document.getElementsByClassName("menu-button");
     var i;
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
     document.getElementById("content-realizare1").style.display = "block";
+    for (i = 0; i < y.length; i++) {
+        y[i].style.border = "none";
+    }
+    y[3].style.border = "3px solid red";
 }
 
 function menu5() {
     var x = document.getElementsByClassName("content");
+    var y = document.getElementsByClassName("menu-button");
     var i;
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
     document.getElementById("content-evaluare1").style.display = "block";
+    for (i = 0; i < y.length; i++) {
+        y[i].style.border = "none";
+    }
+    y[4].style.border = "3px solid red";
 }
 
 function myFunction1() {
