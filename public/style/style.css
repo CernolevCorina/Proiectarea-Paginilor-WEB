@@ -278,6 +278,63 @@ section#virginia div.items div p{
     padding: 5px;
 }
 
+section.page4-info{
+    background-color: #f5f5cd;
+    padding: 10px;
+}
+
+section.page4-info h2{
+    font-size: 36px;
+    text-align: center;
+}
+
+section.page4-info ol{
+ font-size: 24px;
+}
+
+section.page4-info2,
+section.page4-info3{
+    background-color: #f5f5cd;
+    padding: 15px;
+}
+
+section.page4-info2 div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+section.page4-info2 h2,
+section.page4-info3 h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+section.page4-info3 div.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    column-gap: 57px;
+    row-gap: 57px;
+}
+
+section.page4-info3 div.container div{
+    border: 3px solid black;
+    border-radius: 45px;
+    background-color: #e6e6fa;
+}
+
+section.page4-info3 div.container div p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+section.page4-info3 div.container div h3{
+    font-size: 30px;
+    padding: 10px;
+}
+
+
 @media (max-width: 1000px) {
     header div p.logo{
       font-size: 12px;
@@ -347,5 +404,14 @@ section#virginia div.items div p{
     }
     section#virginia div.items{
         grid-template-columns: 1fr;
+    }
+    section.page4-info2 div,
+    section.page4-info3 div.container{
+        grid-template-columns: 1fr;
+    }
+    section.page4-info h2,
+    section.page4-info2 h2,
+    section.page4-info3 h2{
+        font-size: 28px;
     }
 }
