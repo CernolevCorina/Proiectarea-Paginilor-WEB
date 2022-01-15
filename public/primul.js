@@ -14,7 +14,7 @@ function menu1() {
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
-    document.getElementById("content-culegere1").style.display = "block";
+    x[0].style.display = "block";
     for (i = 0; i < y.length; i++) {
         y[i].style.border = "none";
     }
@@ -28,7 +28,7 @@ function menu2() {
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
-    document.getElementById("content-analiza1").style.display = "block";
+    x[2].style.display = "block";
     for (i = 0; i < y.length; i++) {
         y[i].style.border = "none";
     }
@@ -42,7 +42,7 @@ function menu3() {
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
-    document.getElementById("content-planificare1").style.display = "block";
+    x[5].style.display = "block";
     for (i = 0; i < y.length; i++) {
         y[i].style.border = "none";
     }
@@ -56,7 +56,7 @@ function menu4() {
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
-    document.getElementById("content-realizare1").style.display = "block";
+    x[8].style.display = "block";
     for (i = 0; i < y.length; i++) {
         y[i].style.border = "none";
     }
@@ -70,7 +70,7 @@ function menu5() {
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
-    document.getElementById("content-evaluare1").style.display = "block";
+    x[11].style.display = "block";
     for (i = 0; i < y.length; i++) {
         y[i].style.border = "none";
     }
@@ -78,81 +78,27 @@ function menu5() {
 }
 
 function myFunction1() {
-    document.getElementById("content-culegere1").style.display = "none";
-    document.getElementById("content-culegere2").style.display = "block";
+    var x = document.getElementsByClassName("content");
+    var i;
+    var z;
+    for (i = 0; i < x.length; i++) {
+        if (x[i].style.display === "block") {
+            z = i + 1;
+            x[i].style.display = "none";
+        }
+    }
+    x[z].style.display = "block";
 }
 
 function myFunction2() {
-    document.getElementById("content-culegere2").style.display = "none";
-    document.getElementById("content-culegere1").style.display = "block";
-}
-
-function myFunction3() {
-    document.getElementById("content-analiza1").style.display = "none";
-    document.getElementById("content-analiza2").style.display = "block";
-}
-
-function myFunction4() {
-    document.getElementById("content-analiza2").style.display = "none";
-    document.getElementById("content-analiza3").style.display = "block";
-}
-
-function myFunction5() {
-    document.getElementById("content-analiza2").style.display = "none";
-    document.getElementById("content-analiza1").style.display = "block";
-}
-
-function myFunction6() {
-    document.getElementById("content-analiza3").style.display = "none";
-    document.getElementById("content-analiza2").style.display = "block";
-}
-
-function myFunction7() {
-    document.getElementById("content-planificare1").style.display = "none";
-    document.getElementById("content-planificare2").style.display = "block";
-}
-
-function myFunction8() {
-    document.getElementById("content-planificare2").style.display = "none";
-    document.getElementById("content-planificare3").style.display = "block";
-}
-
-function myFunction9() {
-    document.getElementById("content-planificare2").style.display = "none";
-    document.getElementById("content-planificare1").style.display = "block";
-}
-
-function myFunction10() {
-    document.getElementById("content-planificare3").style.display = "none";
-    document.getElementById("content-planificare2").style.display = "block";
-}
-
-function myFunction11() {
-    document.getElementById("content-realizare1").style.display = "none";
-    document.getElementById("content-realizare2").style.display = "block";
-}
-
-function myFunction12() {
-    document.getElementById("content-realizare2").style.display = "none";
-    document.getElementById("content-realizare3").style.display = "block";
-}
-
-function myFunction13() {
-    document.getElementById("content-realizare2").style.display = "none";
-    document.getElementById("content-realizare1").style.display = "block";
-}
-
-function myFunction14() {
-    document.getElementById("content-realizare3").style.display = "none";
-    document.getElementById("content-realizare2").style.display = "block";
-}
-
-function myFunction15() {
-    document.getElementById("content-evaluare1").style.display = "none";
-    document.getElementById("content-evaluare2").style.display = "block";
-}
-
-function myFunction16() {
-    document.getElementById("content-evaluare2").style.display = "none";
-    document.getElementById("content-evaluare1").style.display = "block";
+    var x = document.getElementsByClassName("content");
+    var i;
+    var z;
+    for (i = 0; i < x.length; i++) {
+        if (x[i].style.display === "block") {
+            z = i - 1;
+            x[i].style.display = "none";
+        }
+    }
+    x[z].style.display = "block";
 }

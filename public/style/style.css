@@ -75,7 +75,6 @@ nav ul li.active:hover ul.dropdown-content {
 }
 
 nav ul li.active ul.dropdown-content {
-    position: absolute;
     width: 500px;
     display: none;
     background-color: white;
@@ -136,24 +135,24 @@ main.etape div.menu-etape{
     background-color: #f5f5cd;
 }
 
-main.etape div.menu-etape button.menu-button{
+main.etape div.menu-etape article.menu-button{
     display: grid;
     grid-template-rows: 70px 110px;
     background-color: #f5f5cd;
     border: none;
 }
 
-main.etape div.menu-etape button.menu-button:hover{
+main.etape div.menu-etape article.menu-button:hover{
     border: 3px solid black;
 }
 
-main.etape div.menu-etape button img{
+main.etape div.menu-etape article img{
     width: 50px;
     justify-self: center;
     align-self: end;
 }
 
-main.etape div.menu-etape button p{
+main.etape div.menu-etape article p{
     font-size: 24px;
     justify-self: center;
     text-align: center;
@@ -167,7 +166,7 @@ main.etape div.content{
     display: none;
 }
 
-main.etape div#content-analiza3 div.table{
+main.etape div#content-grid div.table{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-right: 5px;
@@ -253,6 +252,11 @@ main.etape div.content button.back{
     main.etape div.content button.back,
     main.etape div.content button.back1{
         width: 100px;
+    }
+    nav ul li.active ul.dropdown-content {
+        width: 300px;
+        font-size: 17px;
+        border: none;
     }
 }
 
