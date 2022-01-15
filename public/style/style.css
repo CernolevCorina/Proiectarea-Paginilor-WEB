@@ -334,6 +334,54 @@ section.page4-info3 div.container div h3{
     padding: 10px;
 }
 
+section.page5{
+    background-color: #e6e6fa;
+    margin: 0;
+    padding: 15px;
+}
+
+section.page5 h2{
+    font-size: 38px;
+    text-align: center;
+}
+
+section.page5 div.page5-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section.page5 div.left{
+    font-size: 28px;
+    padding: 10px;
+}
+
+section.page5 div.left h3{
+    margin-left: 10px;
+}
+
+section.page5 form{
+    display: grid;
+    padding-top: 35px;
+}
+
+section.page5 form label{
+    font-size: 24px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+section.page5 form input{
+    margin: 20px;
+    width: 90%;
+}
+
+section.page5 form input#submit{
+    width: 150px;
+    font-size: 20px;
+    border-radius: 45px;
+    text-align: center;
+    justify-self: center;
+}
 
 @media (max-width: 1000px) {
     header div p.logo{
@@ -413,5 +461,8 @@ section.page4-info3 div.container div h3{
     section.page4-info2 h2,
     section.page4-info3 h2{
         font-size: 28px;
+    }
+    section.page5 div.page5-content{
+        grid-template-columns: 1fr;
     }
 }
