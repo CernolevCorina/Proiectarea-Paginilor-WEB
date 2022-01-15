@@ -74,12 +74,11 @@ nav ul li.active:hover ul.dropdown-content{
 }
 
 nav ul li.active ul.dropdown-content{
-  position: absolute;
   width: 500px;
   display: none;
   background-color: white;
   border: 2px solid #a9a9a9;
-  z-index: +1;
+  position: absolute;
 }
 
 nav ul li.active ul.dropdown-content li { 
@@ -160,6 +159,9 @@ footer div.icons i{
   main img{
     top: 50px;
   }
+  nav ul li.active ul.dropdown-content {
+    width: 300px;
+  }
 }
 
 @media (max-width: 500px){
@@ -179,5 +181,10 @@ footer div.icons i{
     text-decoration: none;
     font-size: 17px;
     display: block;
+  }
+  nav ul li.active ul.dropdown-content {
+    font-size: 17px;
+    border: none;
+    position: relative;
   }
 }

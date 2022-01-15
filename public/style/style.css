@@ -79,6 +79,7 @@ nav ul li.active ul.dropdown-content {
     display: none;
     background-color: white;
     border: 2px solid #a9a9a9;
+    position: absolute;
 }
 
 nav ul li.active ul.dropdown-content li { 
@@ -122,69 +123,69 @@ footer div.icons i {
     margin: 20px;
 }
 
-main.etape img.image {
+main.page2 img.image {
     width: 100%;
     z-index: -1;
     position: sticky;
     top: 120px;
 }
 
-main.etape div.menu-etape{
+main.page2 div.menu-page2{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: #f5f5cd;
 }
 
-main.etape div.menu-etape article.menu-button{
+main.page2 div.menu-page2 article.menu-button{
     display: grid;
     grid-template-rows: 70px 110px;
     background-color: #f5f5cd;
     border: none;
 }
 
-main.etape div.menu-etape article.menu-button:hover{
+main.page2 div.menu-page2 article.menu-button:hover{
     border: 3px solid black;
 }
 
-main.etape div.menu-etape article img{
+main.page2 div.menu-page2 article img{
     width: 50px;
     justify-self: center;
     align-self: end;
 }
 
-main.etape div.menu-etape article p{
+main.page2 div.menu-page2 article p{
     font-size: 24px;
     justify-self: center;
     text-align: center;
     font-weight: bold;
 }
 
-main.etape div.content{
+main.page2 div.content{
     background-color: #e6e6fa;
     padding: 20px;
     font-size: 24px;
     display: none;
 }
 
-main.etape div#content-grid div.table{
+main.page2 div#content-grid div.table{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-right: 5px;
 }
 
-main.etape div.content h3{
+main.page2 div.content h3{
     font-size: 48px;
     font-weight: bold;
     text-align: center;
 }
 
-main.etape div.content div.buttons{
+main.page2 div.content div.buttons{
     display: grid;
 }
 
-main.etape div.content button.next,
-main.etape div.content button.back,
-main.etape div.content button.back1{
+main.page2 div.content button.next,
+main.page2 div.content button.back,
+main.page2 div.content button.back1{
     background-color: #c4c4c4;
     width: 125px;
     border-radius: 30px;
@@ -193,12 +194,12 @@ main.etape div.content button.back1{
     margin-right: 20px;
 }
 
-main.etape div.content button.back1{
+main.page2 div.content button.back1{
     justify-self: start;
     margin-left: 20px;
 }
 
-main.etape div.content button.back{
+main.page2 div.content button.back{
     justify-self: start;
     margin-left: 20px;
     margin-top: -40px;
@@ -219,8 +220,11 @@ main.etape div.content button.back{
     footer{
       font-size: 12px;
     }
-    main.etape img.image{
+    main.page2 img.image{
         top: 50px;
+    }
+    nav ul li.active ul.dropdown-content {
+        width: 300px;
     }
 }
     
@@ -242,21 +246,21 @@ main.etape div.content button.back{
         font-size: 17px;
         display: block;
     }
-    main.etape div.menu-etape{
+    main.page2 div.menu-page2{
         grid-template-columns: repeat(2, 1fr);
     }
-    main.etape div.content h3{
+    main.page2 div.content h3{
         font-size: 30px;
     }
-    main.etape div.content button.next,
-    main.etape div.content button.back,
-    main.etape div.content button.back1{
+    main.page2 div.content button.next,
+    main.page2 div.content button.back,
+    main.page2 div.content button.back1{
         width: 100px;
     }
     nav ul li.active ul.dropdown-content {
-        width: 300px;
         font-size: 17px;
         border: none;
+        position: relative;
     }
 }
 
