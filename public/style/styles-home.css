@@ -187,4 +187,7 @@ footer div.icons i{
     border: none;
     position: relative;
   }
+  nav{
+    margin-top: 30px;
+}
 }

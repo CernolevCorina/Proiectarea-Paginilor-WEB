@@ -465,4 +465,7 @@ section.page5 form input#submit{
     section.page5 div.page5-content{
         grid-template-columns: 1fr;
     }
+    nav{
+        margin-top: 30px;
+    }
 }
