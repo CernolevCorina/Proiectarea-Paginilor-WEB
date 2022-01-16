@@ -468,4 +468,7 @@ section.page5 form input#submit{
     nav{
         margin-top: 30px;
     }
+    section.menu-page3 article h3{
+        height: 58px;
+    }
 }
