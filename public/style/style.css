@@ -130,62 +130,62 @@ img.image {
     top: 120px;
 }
 
-main.page2 div.menu-page2{
+main.page2 div.menu-page2 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: #f5f5cd;
 }
 
-main.page2 div.menu-page2 article.menu-button{
+main.page2 div.menu-page2 article.menu-button {
     display: grid;
     grid-template-rows: 70px 110px;
     background-color: #f5f5cd;
     border: none;
 }
 
-main.page2 div.menu-page2 article.menu-button:hover{
+main.page2 div.menu-page2 article.menu-button:hover {
     border: 3px solid black;
 }
 
-main.page2 div.menu-page2 article img{
+main.page2 div.menu-page2 article img {
     width: 50px;
     justify-self: center;
     align-self: end;
 }
 
-main.page2 div.menu-page2 article h3{
+main.page2 div.menu-page2 article h3 {
     font-size: 24px;
     justify-self: center;
     text-align: center;
     font-weight: bold;
 }
 
-main.page2 div.content{
+main.page2 div.content {
     background-color: #e6e6fa;
     padding: 20px;
     font-size: 24px;
     display: none;
 }
 
-main.page2 div#content-grid div.table{
+main.page2 div#content-grid div.table {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-right: 5px;
 }
 
-main.page2 div.content h3{
+main.page2 div.content h3 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
 }
 
-main.page2 div.content div.buttons{
+main.page2 div.content div.buttons {
     display: grid;
 }
 
 main.page2 div.content button.next,
 main.page2 div.content button.back,
-main.page2 div.content button.back1{
+main.page2 div.content button.back1 {
     background-color: #c4c4c4;
     width: 125px;
     border-radius: 30px;
@@ -194,27 +194,27 @@ main.page2 div.content button.back1{
     margin-right: 20px;
 }
 
-main.page2 div.content button.back1{
+main.page2 div.content button.back1 {
     justify-self: start;
     margin-left: 20px;
 }
 
-main.page2 div.content button.back{
+main.page2 div.content button.back {
     justify-self: start;
     margin-left: 20px;
     margin-top: -40px;
 }
 
-section.menu-page3{
+section.menu-page3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-section.menu-page3 article img.image-menu{
+section.menu-page3 article img.image-menu {
     width: 100%;
 }
 
-section.menu-page3 article h3{
+section.menu-page3 article h3 {
     font-size: 25px;
     text-align: center;
     border: 3px solid black;
@@ -222,95 +222,95 @@ section.menu-page3 article h3{
     padding: 20px 0px;
 }
 
-section.menu-page3 article h3:hover{
+section.menu-page3 article h3:hover {
     border-color: #FCDDEC;
     color: #FFC5FF;
 }
 
 section#maslow,
-section#virginia{
+section#virginia {
     display: none;
     grid-template-columns: 1fr 2fr;
 }
 
-div.information img{
+div.information img {
     width: 330px;
     border-radius: 40px;
     margin-top: 30px;
 }
 
-div.information{
+div.information {
     background-color: #e6e6fa;
     text-align: center;
 }
 
-div.information p{
+div.information p {
     font-size: 24px;
     text-align: center;
 }
 
-section#maslow ol{
+section#maslow ol {
     background-color: #f5f5cd;
     padding: 40px;
     margin: 0;
     font-size: 24px;
 }
 
-section#virginia div.items{
+section#virginia div.items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: #f5f5cd;
     padding: 10px;
 }
 
-section#virginia div.items img{
+section#virginia div.items img {
     width: 200px;
     place-self: center;
 }
 
-section#virginia div.items div{
+section#virginia div.items div {
     display: grid;
     grid-template-rows: 1fr 2fr 2fr;
     text-align: center;
 }
 
-section#virginia div.items div p{
+section#virginia div.items div p {
     padding: 5px;
 }
 
-section.page4-info{
+section.page4-info {
     background-color: #f5f5cd;
     padding: 10px;
 }
 
-section.page4-info h2{
+section.page4-info h2 {
     font-size: 36px;
     text-align: center;
 }
 
-section.page4-info ol{
- font-size: 24px;
+section.page4-info ol {
+    font-size: 24px;
 }
 
 section.page4-info2,
-section.page4-info3{
+section.page4-info3 {
     background-color: #f5f5cd;
     padding: 15px;
 }
 
-section.page4-info2 div{
+section.page4-info2 div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
 
 section.page4-info2 h2,
-section.page4-info3 h2{
+section.page4-info3 h2 {
     text-align: center;
     font-size: 36px;
 }
 
-section.page4-info3 div.container{
+section.page4-info3 div.container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
@@ -318,64 +318,64 @@ section.page4-info3 div.container{
     row-gap: 57px;
 }
 
-section.page4-info3 div.container div{
+section.page4-info3 div.container div {
     border: 3px solid black;
     border-radius: 45px;
     background-color: #e6e6fa;
 }
 
-section.page4-info3 div.container div p{
+section.page4-info3 div.container div p {
     font-size: 24px;
     padding: 10px;
 }
 
-section.page4-info3 div.container div h3{
+section.page4-info3 div.container div h3 {
     font-size: 30px;
     padding: 10px;
 }
 
-section.page5{
+section.page5 {
     background-color: #e6e6fa;
     margin: 0;
     padding: 15px;
 }
 
-section.page5 h2{
+section.page5 h2 {
     font-size: 38px;
     text-align: center;
 }
 
-section.page5 div.page5-content{
+section.page5 div.page5-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-section.page5 div.left{
+section.page5 div.left {
     font-size: 28px;
     padding: 10px;
 }
 
-section.page5 div.left h3{
+section.page5 div.left h3 {
     margin-left: 10px;
 }
 
-section.page5 form{
+section.page5 form {
     display: grid;
     padding-top: 35px;
 }
 
-section.page5 form label{
+section.page5 form label {
     font-size: 24px;
     margin-left: 5px;
     font-weight: bold;
 }
 
-section.page5 form input{
+section.page5 form input {
     margin: 20px;
     width: 90%;
 }
 
-section.page5 form input#submit{
+section.page5 form input#submit {
     width: 150px;
     font-size: 20px;
     border-radius: 45px;
@@ -384,33 +384,40 @@ section.page5 form input#submit{
 }
 
 @media (max-width: 1000px) {
-    header div p.logo{
-      font-size: 12px;
+    header div p.logo {
+        font-size: 12px;
     }
-    header nav a{
-      font-size: 14px;
+
+    header nav a {
+        font-size: 14px;
     }
-    header nav button{
-      width: 100px;
-      height: 40px;
-      font-size: 12px;
+
+    header nav button {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
     }
-    footer{
-      font-size: 12px;
+
+    footer {
+        font-size: 12px;
     }
-    main.page2 img.image{
+
+    main.page2 img.image {
         top: 50px;
     }
+
     nav ul li.active ul.dropdown-content {
         width: 300px;
     }
     section#maslow,
-    section#virginia{
+    section#virginia {
         grid-template-columns: 1fr;
     }
-    div.information img{
+
+    div.information img {
         width: 250px;
     }
+
     section#virginia div.items{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -422,53 +429,65 @@ section.page5 form input#submit{
         position: relative;
         display: none;
     }
+
     header a.icon {
         display: block;
         position: absolute;
         right: 30px;
         top: 20px;
     }
+
     nav a {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
         display: block;
     }
-    main.page2 div.menu-page2{
+
+    main.page2 div.menu-page2 {
         grid-template-columns: repeat(2, 1fr);
     }
-    main.page2 div.content h3{
+
+    main.page2 div.content h3 {
         font-size: 30px;
     }
+
     main.page2 div.content button.next,
     main.page2 div.content button.back,
-    main.page2 div.content button.back1{
+    main.page2 div.content button.back1 {
         width: 100px;
     }
+
     nav ul li.active ul.dropdown-content {
         font-size: 17px;
         border: none;
         position: relative;
     }
-    section#virginia div.items{
+
+    section#virginia div.items {
         grid-template-columns: 1fr;
     }
+
     section.page4-info2 div,
-    section.page4-info3 div.container{
+    section.page4-info3 div.container {
         grid-template-columns: 1fr;
     }
+
     section.page4-info h2,
     section.page4-info2 h2,
-    section.page4-info3 h2{
+    section.page4-info3 h2 {
         font-size: 28px;
     }
-    section.page5 div.page5-content{
+
+    section.page5 div.page5-content {
         grid-template-columns: 1fr;
     }
-    nav{
+
+    nav {
         margin-top: 30px;
     }
-    section.menu-page3 article h3{
+
+    section.menu-page3 article h3 {
         height: 58px;
     }
 }

@@ -1,13 +1,13 @@
-body{
+body {
   margin: 10px;
   font-family: Roboto;
 }
 
-header a.icon{
+header a.icon {
   display: none;
 }
 
-header{
+header {
   display: grid;
   grid-template-columns: 1fr 7fr;
   position: sticky;
@@ -16,22 +16,22 @@ header{
   width: 100%;
 }
 
-header nav{
+header nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr) repeat(3, 2fr);
   text-align: center;
   align-items: center;
 }
 
-header i#menu{
+header i#menu {
   display: none;
 }
 
-header div{
+header div {
   justify-self: center;
 }
 
-header div p.logo{
+header div p.logo {
   color: black ; 
   font-family: Vivaldi; 
   font-size: 24px; 
@@ -44,14 +44,14 @@ header div p.logo{
   animation-iteration-count: infinite;
 }
 
-@keyframes Bord{
+@keyframes Bord {
   0% {border-color:rebeccapurple;}
   25% {border-color: salmon;}
   50% {border-color: yellow;}
   100% {border-color: black;}
 }
 
-header nav a{
+header nav a {
   text-decoration: none;
   font-weight: bold;
   font-size: 24px;
@@ -59,21 +59,21 @@ header nav a{
   color: #a9a9a9;
 }
 
-header nav ul{
+header nav ul {
   display: inline;
   margin: 0;
   padding: 0;
 }
 
-nav ul li.active{
+nav ul li.active {
   display: inline-block;
 }
 
-nav ul li.active:hover ul.dropdown-content{
+nav ul li.active:hover ul.dropdown-content {
   display: block;
 }
 
-nav ul li.active ul.dropdown-content{
+nav ul li.active ul.dropdown-content {
   width: 500px;
   display: none;
   background-color: white;
@@ -86,11 +86,11 @@ nav ul li.active ul.dropdown-content li {
   border-bottom: 2px solid #a9a9a9;
 }
 
-header nav a:active{
+header nav a:active {
   color: black;
 }
 
-header nav button{
+header nav button {
   width: 227px;
   height: 63px;
   background: #FFFFFF;
@@ -103,26 +103,26 @@ header nav button{
   margin-left: 20px;
 }
 
-main img{
+main img {
   width: 100%;
   z-index: -1;
   position: sticky;
   top: 120px;
 }
 
-main div.text-home{
+main div.text-home {
   height: 250px;
   display: grid;
   background: #F5F5DC;
 }
 
-main div.text-home p{
+main div.text-home p {
   place-self: center;
   font-size: 24px;
   text-align: center;
 }
 
-footer{
+footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-color: black;
@@ -132,62 +132,71 @@ footer{
 }
 
 footer div.contacts h3,
-footer div.work h3{
+footer div.work h3 {
   margin-left: 10px;
 }
 
-footer div.icons i{
+footer div.icons i {
   display: inline-block;
   margin: 20px;
 }
 
-@media (max-width: 1000px){
-  header div p.logo{
+@media (max-width: 1000px) {
+  header div p.logo {
     font-size: 12px;
   }
-  header nav a{
+
+  header nav a {
     font-size: 12px;
   }
-  header nav button{
+
+  header nav button {
     width: 100px;
     height: 40px;
     font-size: 12px;
   }
-  footer{
+
+  footer {
     font-size: 12px;
   }
-  main img{
+
+  main img {
     top: 50px;
   }
+
   nav ul li.active ul.dropdown-content {
     width: 300px;
   }
 }
 
-@media (max-width: 500px){
-  #mobile-menu{
+@media (max-width: 500px) {
+  #mobile-menu {
     overflow: hidden;
     position: relative;
     display: none;
   }
-  header a.icon{
+
+  header a.icon {
     display: block;
     position: absolute;
     right: 30px;
     top: 20px;
   }
-  nav a{
+
+  nav a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
   }
+
   nav ul li.active ul.dropdown-content {
     font-size: 17px;
     border: none;
     position: relative;
   }
-  nav{
+
+  nav {
     margin-top: 30px;
 }
 }
